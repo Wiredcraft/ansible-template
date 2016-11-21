@@ -1,0 +1,4 @@
+---
+# Here are the variables shared by all DB hosts
+
+var: "my db var"

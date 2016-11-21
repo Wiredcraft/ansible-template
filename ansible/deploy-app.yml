@@ -1,0 +1,19 @@
+---
+# In order to have access to the other hosts defined in the 
+# infrastructure, you want to esure you've accessed them all
+- hosts: all
+  tasks:
+    - name: Load the cache / inventory
+      ping: {}
+
+# Do the work, e.g. run the tasks from a role and post tasks
+- hosts: app
+  vars_prompt:
+    - name: my_app_version
+      prompt: 'Version to deploy'
+      default: "master"
+      private: false
+  tasks: 
+    # Obviously fake but ... the idea is here
+    - name: Update code
+      ping: {}

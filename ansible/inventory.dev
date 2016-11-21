@@ -1,0 +1,9 @@
+[app]
+dev-app
+
+[db]
+dev-db
+
+[all-dev:children]
+app
+db

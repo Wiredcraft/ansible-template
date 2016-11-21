@@ -1,0 +1,4 @@
+---
+- name: Do nothing - but do it well
+  ping: {}
+  notify: nothing

@@ -1,0 +1,4 @@
+---
+# Here are the variables shared by all APP hosts
+
+var: "my app var"

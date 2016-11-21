@@ -1,0 +1,18 @@
+---
+#
+# Make sure you save this file as a .yml file, so you can use the
+# following syntax
+#
+# Refer to the official Ansible documentation for more details 
+# on the format of this file
+#
+#    http://docs.ansible.com/ansible/playbooks.html
+#
+
+# Wiredcraft shared roles
+- src: https://github.com/wiredcraft-ops/role-wcl-common.git
+  name: wcl-common
+  version: master
+
+# Public roles (from galaxy.ansible.com)
+- src: geerlingguy.git
