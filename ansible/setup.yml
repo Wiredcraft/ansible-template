@@ -1,0 +1,8 @@
+---
+# In order to have access to the other hosts defined in the 
+# infrastructure, you want to esure you've accessed them all
+- hosts: all
+  tasks:
+    - name: Load the cache / inventory
+      ping: {}
+

@@ -1,0 +1,12 @@
+[app]
+staging-app-1
+staging-app-2
+
+[db]
+staging-db-1
+staging-db-2
+
+
+[all-staging:children]
+app
+db

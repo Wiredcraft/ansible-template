@@ -1,5 +1,1 @@
 ---
-# Here are the variables shared by ALL hosts - could be considered as defaults
-# Those variables are overridden by either `all-XXX` or more narrowed down groups
-
-var: "my default var"

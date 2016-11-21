@@ -1,5 +1,1 @@
 ---
-# Here are the variables shared by all STAGING hosts - could be considered as defaults
-# Those variables are overridden by more narrowed down groups
-
-var: "my staging var"

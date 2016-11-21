@@ -1,0 +1,12 @@
+[app]
+prod-app-1
+prod-app-2
+
+[db]
+prod-db-1
+prod-db-2
+
+
+[all-prod:children]
+app
+db
